@@ -1,0 +1,26 @@
+
+#scroll-to-top {
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+  font-size: 5rem;
+  color: $color_base;
+  background-color: $color_brown;
+  border-radius: 50%;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.scroll-to-top__animation {
+  pointer-events: none;
+  opacity: 0;
+  transition: all 0.3s;
+
+  &.fadeIn {
+    display: block;
+    pointer-events: auto;
+    opacity: 1;
+  }
+}

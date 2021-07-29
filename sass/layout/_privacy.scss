@@ -1,0 +1,46 @@
+.page__privacy {
+  color: #333;
+  background-color: $color_base;
+
+  .privacy__container {
+    max-width: 128rem;
+    padding: 5.5rem 2rem;
+    margin: auto;
+
+    h1 {
+      font-size: 3.6rem;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    h2 {
+      padding: 0.1em 0.5em;
+      padding-top: 5.5rem;
+      font-size: 2.4rem;
+      border-bottom: 1px solid #ccc;
+    }
+
+    p {
+      padding: 0.5em 1em;
+    }
+  }
+}
+
+@media #{map-get($breakpoints, 's')} {
+  .page__privacy {
+    background-color: $color_base;
+
+    .privacy__container {
+      padding: 3.3rem 2rem;
+
+      h1 {
+        font-size: 2.4rem;
+      }
+
+      h2 {
+        padding-top: 3.3rem;
+        font-size: 2rem;
+      }
+    }
+  }
+}

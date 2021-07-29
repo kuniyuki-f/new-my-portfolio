@@ -1,0 +1,64 @@
+//===================================================
+// ヘッダー
+//===================================================
+header {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 6rem;
+  padding: 0 2rem;
+  line-height: 6rem;
+  background-color: rgba(244, 243, 236, 0.8);
+
+  .custom-logo,
+  .custom-logo-link,
+  .header__navigation,
+  .header-menu,
+  .header-menu > li,
+  .menu-navigation-container,
+  .menu,
+  .menu-item,
+  .menu-item a,
+  .menu-item i {
+    display: block;
+    height: inherit;
+    line-height: inherit;
+  }
+
+  .menu {
+    display: flex;
+    width: 100%;
+  }
+
+  .menu-item a {
+    padding: 0 1em;
+    margin-left: 1em;
+  }
+}
+
+@media #{map-get($breakpoints, 's')} {
+  header {
+    top: -3.5rem;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 0 1em;
+    line-height: 5rem;
+
+    .custom-logo {
+      width: 18rem;
+    }
+
+    .menu {
+      justify-content: space-between;
+      width: 32rem;
+    }
+
+    .menu-item a {
+      margin: auto;
+    }
+  }
+}

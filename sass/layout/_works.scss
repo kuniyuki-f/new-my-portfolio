@@ -1,0 +1,119 @@
+.works-page__content {
+  background-color: $color_base;
+
+  h2 {
+    padding: 5.5rem 0;
+  }
+}
+
+.works-article {
+  padding: 5.5rem 0;
+  background-color: $color_base;
+
+  .works-article__inner a {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 64rem;
+    padding: 5.5rem 2rem;
+    margin: auto;
+
+    &::before {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 0;
+      content: "";
+      background-color: lighten($color_base, 40%);
+      transition: transform 0.3s;
+      transform: scale(0, 1);
+      transform-origin: right top;
+    }
+
+    &:hover {
+      .works-article__thumb {
+        transform: scale(1.1);
+      }
+
+      &::before {
+        transform: scale(1, 1);
+        transform-origin: left top;
+      }
+    }
+  }
+
+  .works-article__img {
+    position: relative;
+    width: 60rem;
+    height: 31.5rem;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .works-article__thumb {
+    width: 100%;
+    height: auto;
+    transition: all 0.3s;
+  }
+
+  .works-article__title {
+    position: relative;
+    padding-top: 2.2rem;
+    font-weight: bold;
+    color: $color_green;
+    text-decoration: underline;
+  }
+
+  .works-article__description {
+    position: relative;
+    padding-top: 2.2rem;
+  }
+}
+
+.entry-loading {
+  display: none;
+  width: 100%;
+  padding: 3em 0;
+  font-weight: 700;
+  text-align: center;
+  background-color: $color_base;
+}
+
+.entry-loading.is-show {
+  display: block;
+}
+
+.works-breadcrumb-wrapper {
+  .breadcrumb {
+    max-width: 64rem;
+    margin: auto;
+  }
+
+  background-color: $color_base;
+}
+
+@media #{map-get($breakpoints, 's')} {
+  .works-page__content {
+    h2 {
+      padding: 3.3rem 0;
+    }
+  }
+
+  .works-article {
+    padding: 3.3rem 0;
+
+    .works-article__inner a {
+      max-width: 32rem;
+      padding: 3.3rem 2rem;
+    }
+
+    .works-article__img {
+      width: 30rem;
+      height: 15.75rem;
+    }
+  }
+}

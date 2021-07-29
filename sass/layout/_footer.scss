@@ -1,0 +1,38 @@
+//==================================================
+// フッター
+//==================================================
+
+footer {
+  position: relative;
+  color: $color_base;
+  background: url('../images/footer-bg.png') repeat;
+  background-color: rgba(125, 125, 125, 1);
+  background-blend-mode: darken;
+
+  .footer__global-nav {
+    .widgettitle {
+      font-size: 2.4rem;
+    }
+
+    #menu-footer-nav {
+      display: flex;
+      flex-wrap: wrap;
+      row-gap: 2.2rem;
+      justify-content: space-evenly;
+      max-width: 36rem;
+      padding-top: 3.3rem;
+      margin: auto;
+    }
+  }
+
+  .footer__title {
+    padding-top: 5.5rem;
+    text-align: center;
+  }
+
+  .footer__copyright {
+    padding: 2.2rem 0;
+    margin: auto;
+    text-align: center;
+  }
+}
