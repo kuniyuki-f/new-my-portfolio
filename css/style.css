@@ -620,6 +620,7 @@ template {
 
 .page__blog .navigation {
   grid-column: 1/3;
+  margin: 5.5rem auto;
 }
 
 .page__blog .navigation .page-numbers {
@@ -827,7 +828,7 @@ footer .footer__copyright {
 .front-page__catch-copy {
   padding: 5.5rem 0;
   margin: 22rem auto;
-  background-color: #f4f3ec;
+  background-color: rgba(244, 243, 236, 0.8);
 }
 
 .front-page__service {
@@ -1115,7 +1116,7 @@ header {
   height: 6rem;
   padding: 0 2rem;
   line-height: 6rem;
-  background-color: rgba(244, 243, 236, 0.8);
+  background-color: #f4f3ec;
 }
 
 header .custom-logo,
