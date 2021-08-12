@@ -55,8 +55,9 @@
   }
 
   .works-article__thumb {
+    object-fit: cover;
     width: 100%;
-    height: auto;
+    height: 100%;
     transition: all 0.3s;
   }
 

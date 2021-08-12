@@ -563,8 +563,10 @@ template {
 
 .page__blog .blog-article__link .blog-article__img .blog-article__thumb {
   display: block;
+  -o-object-fit: cover;
+  object-fit: cover;
   width: 100%;
-  height: auto;
+  height: 100%;
   margin: auto;
   transition: 0.3s;
 }
@@ -1448,8 +1450,10 @@ header .menu-item a {
 }
 
 .works-article .works-article__thumb {
+  -o-object-fit: cover;
+  object-fit: cover;
   width: 100%;
-  height: auto;
+  height: 100%;
   transition: all 0.3s;
 }
 
