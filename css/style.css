@@ -996,7 +996,9 @@ footer .footer__copyright {
 
 .front-page-works .front-page-works__item .front-page-works__link .front-page-works__img .front-page-works__thumb {
   width: 100%;
-  height: auto;
+  -o-object-fit: cover;
+  object-fit: cover;
+  height: 100%;
   transition: all 0.3s;
 }
 
@@ -1057,8 +1059,10 @@ footer .footer__copyright {
 
 .front-page-posts .front-page-posts__item .front-page-posts__link .front-page-posts__img .front-page-posts__thumb {
   width: 100%;
-  height: auto;
+  height: 100%;
   transition: all 0.3s;
+  -o-object-fit: cover;
+  object-fit: cover;
 }
 
 .front-page-posts .front-page-posts__item .front-page-posts__link .front-page-posts__title {
@@ -1342,6 +1346,7 @@ header .menu-item a {
   max-width: 94rem;
   padding: 3.3rem 2rem;
   margin: auto;
+  color: #333;
 }
 
 .single__main .single__content h2 {
