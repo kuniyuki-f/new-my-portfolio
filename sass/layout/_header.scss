@@ -12,6 +12,7 @@ header {
   padding: 0 2rem;
   line-height: 6rem;
   background-color: $color_base;
+  box-shadow: 0 3px 6px #0000001a;
 
   .custom-logo,
   .custom-logo-link,
@@ -26,6 +27,11 @@ header {
     display: block;
     height: inherit;
     line-height: inherit;
+  }
+
+  .custom-logo {
+    width: 100%;
+    max-height: 6rem;
   }
 
   .menu {

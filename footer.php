@@ -14,8 +14,8 @@
         <?php endif; ?>
     </nav>
 
-    <p class="footer__copyright">©2021 <?php if (date("Y") !== '2021') echo date("-Y"); ?>
-        Swing Cat
+    <p class="footer__copyright">
+        ©2021 <?php if (date("Y") !== '2021') echo date("-Y"); ?> Swing Cat
     </p>
 
 </footer>

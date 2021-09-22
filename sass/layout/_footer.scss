@@ -28,6 +28,11 @@ footer {
   .footer__title {
     padding-top: 5.5rem;
     text-align: center;
+
+    img {
+      max-width: 16rem;
+      height: auto;
+    }
   }
 
   .footer__copyright {

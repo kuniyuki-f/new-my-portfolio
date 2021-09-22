@@ -9,7 +9,7 @@
   .profile__description {
     display: flex;
     justify-content: center;
-    max-width: 80rem;
+    max-width: 60rem;
     margin: 5.5rem auto;
 
     figure {
@@ -28,13 +28,13 @@
   }
 
   .profile__business {
-    max-width: 80rem;
+    max-width: 60rem;
     padding: 1em;
     margin: auto;
   }
 
   .breadcrumb {
-    max-width: 80rem;
+    max-width: 60rem;
     margin: auto;
   }
 }
@@ -50,7 +50,7 @@
     .profile__description {
       display: flex;
       justify-content: center;
-      max-width: 80rem;
+      max-width: 60rem;
       margin: 3.3rem auto;
 
       figure {
@@ -80,7 +80,7 @@
     }
 
     .breadcrumb {
-      max-width: 80rem;
+      max-width: 60rem;
       margin: auto;
     }
   }
