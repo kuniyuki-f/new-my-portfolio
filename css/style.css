@@ -811,8 +811,7 @@ template {
 footer {
   position: relative;
   color: #f4f3ec;
-  background: url("../images/footer-bg.png") repeat;
-  background-color: #7d7d7d;
+  background-color: #59483b;
   background-blend-mode: darken;
 }
 
@@ -1161,7 +1160,7 @@ header .menu-item i {
 }
 
 header .custom-logo {
-  width: 100%;
+  width: auto;
   max-height: 6rem;
 }
 
@@ -1569,6 +1568,7 @@ header .menu-item a {
 
 #scroll-to-top:hover {
   cursor: pointer;
+  box-shadow: 0 0 5px #59483b;
 }
 
 .scroll-to-top__animation {
