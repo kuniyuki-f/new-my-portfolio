@@ -30,7 +30,7 @@
         ?>
                 <article class="works-article">
                     <div class="works-article__inner">
-                        <a href="<?php echo get_field("link"); ?>">
+                        <a href="<?php echo get_field("link"); ?>" target="_blank" rel="noopener noreferrer">
                             <div class="works-article__img">
                                 <img class="works-article__thumb" src="<?php echo get_the_post_thumbnail_url() ?>" alt="">
                             </div>

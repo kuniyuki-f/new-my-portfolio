@@ -299,7 +299,7 @@ function get_front_page_works()
     if ($works->have_posts()) :
         while ($works->have_posts()) : $works->the_post();
             $html = $html . '<li class="front-page-works__item">';
-            $html = $html . '<a class="front-page-works__link" href="' . get_field('link') . '">';
+            $html = $html . '<a class="front-page-works__link" href="' . get_field('link') . '" target="_blank" rel="noopener noreferrer">';
             $html = $html
                 . '<div class="front-page-works__img">'
                 . '<img class="front-page-works__thumb" src="' . get_the_post_thumbnail_url() . '">'
@@ -325,7 +325,7 @@ function get_front_page_posts()
     if ($works->have_posts()) :
         while ($works->have_posts()) : $works->the_post();
             $html = $html . '<li class="front-page-posts__item">';
-            $html = $html . '<a class="front-page-posts__link" href="' . get_the_permalink() . '">';
+            $html = $html . '<a class="front-page-posts__link" href="' . get_the_permalink() . '" >';
             $html = $html
                 . '<div class="front-page-posts__img">'
                 . '<img class="front-page-posts__thumb" src="' . get_the_post_thumbnail_url() . '">'
