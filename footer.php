@@ -15,7 +15,7 @@
     </nav>
 
     <p class="footer__copyright">
-        ©2021 <?php if (date("Y") !== '2021') echo date("-Y"); ?> Swing Cat
+        ©2021 <?php if (date("Y") !== '2021') echo date("-Y"); ?> Swing
     </p>
 
 </footer>
@@ -23,9 +23,6 @@
 <a id="scroll-to-top" class=" material-icons-outlined scroll-to-top__animation">
     expand_less
 </a>
-
-
-
 
 <?php wp_footer() ?>
 </body>
