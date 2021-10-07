@@ -1556,6 +1556,10 @@ header .menu-item a {
   content: ">";
 }
 
+.grecaptcha-badge {
+  bottom: 8.8rem !important;
+}
+
 #scroll-to-top {
   position: fixed;
   right: 2rem;
