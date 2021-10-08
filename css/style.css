@@ -1179,7 +1179,7 @@ header .menu-item a {
 
 @media screen and (max-width: 767px) {
   header {
-    top: -3.5rem;
+    top: -6rem;
     display: flex;
     flex-direction: column;
     height: auto;
