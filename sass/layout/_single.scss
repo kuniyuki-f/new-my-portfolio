@@ -116,89 +116,87 @@
   }
 }
 
-
 @media #{map-get($breakpoints, 's')} {
   .single__main {
-  
     .single__header {
       .single__title {
-        font-size: 2rem;
         padding: 0 1em;
+        font-size: 2rem;
         font-weight: bold;
       }
-  
+
       .single__meta {
         padding: 2.2rem;
         font-size: 1.2rem;
-  
+
         a {
           display: inline-block;
           padding: 0 1em;
         }
-  
+
         time {
           display: inline-block;
           padding-top: 1em;
         }
       }
     }
-  
+
     .single__content {
       max-width: 37.5rem;
       padding: 2.2rem 1.6rem;
-  
+
       h2 {
         padding: 4rem 0 0.5em 0.5em;
         font-size: 1.6rem;
         font-weight: bold;
       }
-  
+
       h3 {
         padding-top: 2.4rem;
         padding-left: 0.4em;
         font-size: 1.6rem;
         font-weight: bold;
       }
-  
+
       p {
-        padding: .8em;
+        padding: 0.8em;
       }
-  
+
       a {
         font-weight: bold;
         color: #16a34a;
         text-decoration: underline;
       }
-  
+
       #toc_container {
         width: 100% !important;
         margin: 3.3rem auto;
-  
+
         .toc_title {
           text-align: left;
         }
       }
-  
+
       .sns-list {
         display: flex;
         flex-wrap: wrap;
         padding-top: 11rem;
-  
+
         span {
           width: 100%;
           padding-left: 1em;
         }
-  
+
         li {
           padding-top: 1em;
           padding-left: 1em;
-  
+
           .sns-link {
-  
+
           }
-  
+
           img {
-  
+
           }
         }
       }
