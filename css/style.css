@@ -1039,6 +1039,10 @@ footer .footer__copyright {
   text-align: center;
 }
 
+.front-page-posts .front-page-posts__item {
+  max-width: 34rem;
+}
+
 .front-page-posts .front-page-posts__item .front-page-posts__link {
   position: relative;
   display: block;
@@ -1434,8 +1438,8 @@ header .menu-item a {
 
 @media screen and (max-width: 767px) {
   .single__main .single__header .single__title {
-    font-size: 2rem;
     padding: 0 1em;
+    font-size: 2rem;
     font-weight: bold;
   }
   .single__main .single__header .single__meta {
@@ -1466,7 +1470,7 @@ header .menu-item a {
     font-weight: bold;
   }
   .single__main .single__content p {
-    padding: .8em;
+    padding: 0.8em;
   }
   .single__main .single__content a {
     font-weight: bold;
