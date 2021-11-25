@@ -24,7 +24,7 @@
 
 html {
   line-height: 1.15; /* 1 */
-  -webkit-text-size-adjust: 100%; /* 2 */
+  text-size-adjust: 100%; /* 2 */
   -webkit-tap-highlight-color: transparent; /* 3 */
 }
 
@@ -247,7 +247,7 @@ textarea {
   background: transparent;
   border-radius: 0;
   outline: 0;
-  -webkit-appearance: none;
+  appearance: none;
   appearance: none;
 }
 
@@ -256,12 +256,12 @@ textarea {
  */
 
 [type="checkbox"] {
-  -webkit-appearance: checkbox;
+  appearance: checkbox;
   appearance: checkbox;
 }
 
 [type="radio"] {
-  -webkit-appearance: radio;
+  appearance: radio;
   appearance: radio;
 }
 
@@ -296,7 +296,7 @@ button,
 [type="reset"],
 [type="submit"] {
   cursor: pointer;
-  -webkit-appearance: none;
+  appearance: none;
   appearance: none;
 }
 
@@ -409,7 +409,7 @@ textarea {
  */
 
 [type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
+  appearance: none;
 }
 
 /**
@@ -418,7 +418,7 @@ textarea {
  */
 
 ::-webkit-file-upload-button {
-  -webkit-appearance: button; /* 1 */
+  appearance: button; /* 1 */
   font: inherit; /* 2 */
 }
 
